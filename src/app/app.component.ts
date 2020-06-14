@@ -55,8 +55,8 @@ export class AppComponent {
     else {
       Swal.fire({
         imageUrl: this.imageSrc,
-        imageHeight: 380,
-        imageWidth: 500,
+        // imageHeight: 300,
+        // imageWidth: 540,
         icon: 'success',
         html: 'Image uploaded successfully!',
         confirmButtonText: 'OK',
@@ -65,6 +65,7 @@ export class AppComponent {
           popup: 'swal2-noanimation',
           backdrop: 'swal2-noanimation'
         },
+        width: '540px'
       });
     }
   }
